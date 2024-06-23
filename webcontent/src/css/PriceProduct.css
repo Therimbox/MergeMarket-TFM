@@ -1,0 +1,36 @@
+.price-product-list {
+    margin-top: 20px;
+}
+
+.price-product-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.price-product h3 {
+    margin-top: 0;
+}
+
+.clickeable{
+    text-decoration: none;
+    color: initial;
+}
+
+.clickeable:hover{
+    text-decoration: none;
+    color: initial;
+}
+
+.price-product img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
+
+.price-product-list img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}

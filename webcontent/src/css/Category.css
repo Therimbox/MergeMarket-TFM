@@ -1,0 +1,49 @@
+.category-card {
+    flex: 0 1 calc(33.33% - 20px);
+    border: 2px solid azure;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.category-card img {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.category-header {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 350px;
+    min-height: 100px;
+}
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.clickeable {
+    text-decoration: none;
+    color: initial;
+}
+
+.clickeable:hover {
+    text-decoration: none;
+    color: initial;
+}
+
+.category-body {
+    background-color: azure;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
