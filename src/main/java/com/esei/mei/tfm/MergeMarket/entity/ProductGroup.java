@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class ProductGroup {
@@ -15,7 +15,7 @@ public class ProductGroup {
     
     private String name;
     
-    @OneToOne
+    @ManyToOne
     private ProductCategory category;
 
 	public ProductGroup(String name, ProductCategory category) {
